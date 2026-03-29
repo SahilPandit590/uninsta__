@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uninsta - Academic Resource Sharing</title>
+    <!-- Premium Google Fonts: Inter and Outfit -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-brand">Uninsta<span>.</span></div>
+      <div class="nav-links" id="nav-links">
+        <!-- Injected via JS depending on auth state -->
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="container" id="app">
+      <!-- Dynamic Views (Login, Register, Home, Upload, Post Details) will be injected here -->
+    </main>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast hidden"></div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
